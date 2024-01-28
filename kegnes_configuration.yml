@@ -1,0 +1,59 @@
+name: kegnes
+classification: flat,coastal
+position:
+  latitude: 54.855119
+  longitude: 9.936278
+  altitude: 0
+  country: Denmark
+mast_height: 23
+mast_sensors:
+  - name: WS23
+    type: WindSpeed
+    height: 23.4
+    signals:
+      - Mean
+  - name: WS11
+    type: WindSpeed
+    height: 10.6
+    signals:
+      - Mean
+  - name: WS03
+    type: WindSpeed
+    height: 3.3
+    signals:
+      - Mean
+  - name: WD10
+    type: WindDirection
+    height: 10.3
+    signals:
+      - Mean
+  - name: WD23
+    type: WindDirection
+    height: 23.4
+    signals:
+      - Mean
+  - name: RH2
+    type: RelativeHumidity
+    height: 2
+    signals:
+      - Mean
+  - name: RH22
+    type: RelativeHumidity
+    height: 22
+    signals:
+      - Mean
+  - name: P
+    type: Pressure
+    height: 1.5
+    signals:
+      - Mean
+  - name: T2
+    type: Temperature
+    height: 2
+    signals:
+      - Mean
+  - name: T22
+    type: Temperature
+    height: 21.9
+    signals:
+      - Mean
